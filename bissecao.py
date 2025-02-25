@@ -1,9 +1,11 @@
 import math
 R = 1000
 C = 0.001
+Q = 1 #Adotando o valor da carga máxima como 1C
+
 
 def f(x):
-    return C*(1 - math.exp(-x/(R*C))) - 0.9*C
+    return Q*(1 - math.exp(-x/(R*C))) - 0.9*Q
 
 def main():
     a = 0
