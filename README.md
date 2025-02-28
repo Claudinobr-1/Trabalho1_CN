@@ -39,3 +39,6 @@ Na primeira questão, cujo objetivo era determinar o tempo necessário para que 
 - Ao contrário do método da bisseção, a convergência não é garantida para todas as funções contínuas.
 
 ## **Resultados - Questão 2** 💻
+
+O problema para a segunda questão consiste em achar uma das raízes da função f(x)=x^5-3x^3+2x^2-5x+1, partindo do valor inicial x0=1, e adontando-se o valor de tolerância e=0,000001. Aplicando o método de Newton obteve-se o seguinte resultado x≃0.2123809336340521.
+
